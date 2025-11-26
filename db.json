@@ -1,0 +1,291 @@
+{
+  "users": [
+    {
+      "id": "admin001",
+      "email": "admin@civic.com",
+      "password": "$2a$10$b7JpTTdtGZKs25AY10TIheOlbNiHt6U8WKUVT5twyKDlttgCaiHXu",
+      "name": "Admin User",
+      "role": "admin",
+      "points": 0,
+      "spamScore": 0,
+      "reportCount": 0,
+      "duplicateCount": 0,
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "auth001",
+      "email": "authority@civic.com",
+      "password": "$2a$10$b7JpTTdtGZKs25AY10TIheOlbNiHt6U8WKUVT5twyKDlttgCaiHXu",
+      "name": "Authority User",
+      "role": "authority",
+      "area": "Downtown",
+      "spamScore": 0,
+      "reportCount": 0,
+      "duplicateCount": 0,
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "0ui8D8QMR1mUyilZgp8EG",
+      "email": "abhi@gmail.com",
+      "password": "$2a$10$6Z6.msMu393shE5VsPn5jec.Rj3NWu1tZZAnvcs./FTQzLc.UzVm.",
+      "name": "abhishek",
+      "role": "user",
+      "points": 45,
+      "spamScore": 0,
+      "reportCount": 2,
+      "duplicateCount": 0,
+      "createdAt": "2025-11-26T05:44:03.436Z"
+    },
+    {
+      "id": "GWk-QgW3g8ft8b-h62Ktb",
+      "email": "authority@gmail.com",
+      "password": "$2a$10$R7KG4urM/m3V0pppEIwzTe6jq2XpErFrLbX96XkAnvROrkvV4Idc.",
+      "name": "Authority",
+      "role": "authority",
+      "points": 0,
+      "spamScore": 0,
+      "reportCount": 0,
+      "duplicateCount": 0,
+      "createdAt": "2025-11-26T06:19:19.252Z"
+    },
+    {
+      "id": "sDsbOpaV1Vp7NJ9MgZivJ",
+      "email": "shashi@gmail.com",
+      "password": "$2a$10$GwlG3LYiMZzqrtKBLaPKeu8ID/4Dj.uV11WH9IdRNwsIqnW3AxMJu",
+      "name": "shashi",
+      "role": "user",
+      "points": 30,
+      "spamScore": 0,
+      "reportCount": 1,
+      "duplicateCount": 0,
+      "createdAt": "2025-11-26T06:25:09.457Z"
+    },
+    {
+      "id": "qRdPj789c6H4a8CUjjOkq",
+      "email": "rusk@gmail.com",
+      "password": "$2a$10$dHCjAcwYCiN71UQbjLHhN.jiLSknI.FJX7x.95VvekDX7YUNZ/R2C",
+      "name": "rudresh",
+      "role": "user",
+      "points": 20,
+      "spamScore": 0,
+      "reportCount": 2,
+      "duplicateCount": 0,
+      "createdAt": "2025-11-26T08:21:45.391Z"
+    }
+  ],
+  "issues": [
+    {
+      "id": "GJfZO_nav4VxW0aOL2RuL",
+      "userId": "qRdPj789c6H4a8CUjjOkq",
+      "title": "pothole ",
+      "description": "big pothole in the middle of the road",
+      "category": "pothole",
+      "latitude": 12.992512,
+      "longitude": 77.633946,
+      "photoUrl": "/uploads/TtMCJEFiyH6FvPdxU-d75-pothole2.jpg",
+      "aiPredictions": null,
+      "ocrText": null,
+      "clientImageHash": "0001111101111111000001110000000100010010000000010101011101001111",
+      "status": "pending",
+      "upvotes": [],
+      "upvoteCount": 0,
+      "comments": [],
+      "createdAt": "2025-11-26T13:01:21.090Z",
+      "updatedAt": "2025-11-26T13:01:21.090Z",
+      "severity": "medium",
+      "imageHash": "03ff00ff00ff003b7eff103f000f10c703c30bf30d0307ff007f007f01ff017f"
+    },
+    {
+      "id": "TrjJa6GOjD8TxGvGQvrP2",
+      "userId": "qRdPj789c6H4a8CUjjOkq",
+      "title": "street light",
+      "description": "not working",
+      "category": "streetlight",
+      "latitude": 12.961465,
+      "longitude": 77.710857,
+      "photoUrl": "/uploads/gzkTOU7KE0PH34eQDPn0O-streetlight.jpg",
+      "aiPredictions": null,
+      "ocrText": null,
+      "clientImageHash": "0111111101110111001101110011011101110111010111110111111100101111",
+      "status": "pending",
+      "createdAt": "2025-11-26T08:22:10.669Z",
+      "updatedAt": "2025-11-26T08:22:10.669Z",
+      "severity": "medium",
+      "imageHash": "00ff007f233f031f031e0a1d0cfb1df319250b8f0bcf03b7077306f904fc01fe"
+    },
+    {
+      "id": "0oky9jU9qGsatAz7nxjvV",
+      "userId": "0ui8D8QMR1mUyilZgp8EG",
+      "title": "pothole series",
+      "description": "lot of potholes ",
+      "category": "pothole",
+      "latitude": 12.961465,
+      "longitude": 77.710857,
+      "photoUrl": "/uploads/Se8rQ9iXFd8RT5TzayNme-pothole.jpg",
+      "aiPredictions": null,
+      "ocrText": null,
+      "clientImageHash": "1010110000001111011000110001000010010000100111101000101001101010",
+      "status": "verified",
+      "createdAt": "2025-11-26T07:44:47.439Z",
+      "updatedAt": "2025-11-26T07:46:40.354Z",
+      "severity": "medium",
+      "imageHash": "ec0083f70cff003f3d1f3d87078307d0623cc0ccc1e4e1fee01cc01c3fbcfc1c",
+      "verifiedAt": "2025-11-26T07:46:40.354Z",
+      "verifiedBy": "GWk-QgW3g8ft8b-h62Ktb",
+      "upvotes": [
+        "0ui8D8QMR1mUyilZgp8EG"
+      ],
+      "upvoteCount": 1,
+      "comments": [
+        {
+          "id": "1764162768450",
+          "userId": "0ui8D8QMR1mUyilZgp8EG",
+          "userName": "abhishek",
+          "userRole": "user",
+          "text": "this is the hectic problem",
+          "createdAt": "2025-11-26T13:12:48.450Z"
+        }
+      ]
+    },
+    {
+      "id": "HB4QhzbfD0A_EqjbTFkEg",
+      "userId": "0ui8D8QMR1mUyilZgp8EG",
+      "title": "street light",
+      "description": "not working",
+      "category": "streetlight",
+      "latitude": 12.961465,
+      "longitude": 77.710857,
+      "photoUrl": "/uploads/bIeMfBL37CAJYSh_y2oVk-streetlight.jpg",
+      "aiPredictions": null,
+      "ocrText": null,
+      "clientImageHash": "0111111101110111001101110011011101110111010111110111111100101111",
+      "status": "duplicate",
+      "createdAt": "2025-11-26T06:36:39.757Z",
+      "updatedAt": "2025-11-26T06:36:39.757Z",
+      "duplicateOf": "qEdlMxOPc-iTYiAljTWwd",
+      "severity": "medium",
+      "imageHash": "00ff007f233f031f031e0a1d0cfb1df319250b8f0bcf03b7077306f904fc01fe"
+    },
+    {
+      "id": "Lx-lgRadvif43dTiwlg-4",
+      "userId": "sDsbOpaV1Vp7NJ9MgZivJ",
+      "title": "strret light",
+      "description": "street lohtj",
+      "category": "streetlight",
+      "latitude": 12.961465,
+      "longitude": 77.710857,
+      "photoUrl": "/uploads/Tk2swYqLfMbEQz1c2BLz_-streetlight.jpg",
+      "aiPredictions": null,
+      "ocrText": null,
+      "clientImageHash": "0111111101110111001101110011011101110111010111110111111100101111",
+      "status": "resolved",
+      "createdAt": "2025-11-26T06:26:26.697Z",
+      "updatedAt": "2025-11-26T06:27:54.495Z",
+      "severity": "medium",
+      "imageHash": "00ff007f233f031f031e0a1d0cfb1df319250b8f0bcf03b7077306f904fc01fe",
+      "verifiedAt": "2025-11-26T06:27:35.853Z",
+      "verifiedBy": "GWk-QgW3g8ft8b-h62Ktb",
+      "resolutionPhotoUrl": "/uploads/rdHOQX5gDMUKTb65AidEE-streetlight.jpg",
+      "resolvedAt": "2025-11-26T06:27:54.495Z",
+      "resolvedBy": "GWk-QgW3g8ft8b-h62Ktb"
+    },
+    {
+      "id": "Ztlt0161qUBCSZFzG9bn5",
+      "userId": "0ui8D8QMR1mUyilZgp8EG",
+      "title": "Civic Issue Reported",
+      "description": "Image uploaded for civic issue reporting. AI could not determine the specific issue type. Top prediction: sandbar, sand bar (26% confidence). Please manually select the correct category and provide detailed description.",
+      "category": "other",
+      "latitude": 12.961465,
+      "longitude": 77.710857,
+      "photoUrl": "/uploads/llpFdqnpuyPCPkVYJ3oF6-pothole2.jpg",
+      "aiPredictions": [
+        {
+          "className": "sandbar, sand bar",
+          "probability": 0.2574577033519745
+        },
+        {
+          "className": "leatherback turtle, leatherback, leathery turtle, Dermochelys coriacea",
+          "probability": 0.09429439902305603
+        },
+        {
+          "className": "volcano",
+          "probability": 0.09042142331600189
+        }
+      ],
+      "ocrText": "En ae =:\r\na ea Nis : pi .\r\nareal en es SE eR\r\nee\r\n= ET Ameer ERIN\r\nEr ae a so RETR\r\nSha LL SEE SR eT ase\r\nSalad SS ES aE ee aE\r\nSER RNS BEER RL eT eT\r\nSr ERR TINE a A SR i\r\nSHEARER Sasa aE SR\r\nNR TE EI RO RR aE ",
+      "clientImageHash": "0001111101111111000001110000000100010010000000010101011101001111",
+      "status": "resolved",
+      "createdAt": "2025-11-26T06:06:59.631Z",
+      "updatedAt": "2025-11-26T06:22:34.542Z",
+      "severity": "low",
+      "imageHash": "03ff00ff00ff003b7eff103f000f10c703c30bf30d0307ff007f007f01ff017f",
+      "verifiedAt": "2025-11-26T06:19:31.650Z",
+      "verifiedBy": "GWk-QgW3g8ft8b-h62Ktb",
+      "resolutionPhotoUrl": "/uploads/VG0VNCXAIMVDMb9ED656L-pothole2.jpg",
+      "resolvedAt": "2025-11-26T06:22:34.545Z",
+      "resolvedBy": "GWk-QgW3g8ft8b-h62Ktb"
+    }
+  ],
+  "authorities": [],
+  "chats": [
+    {
+      "userId": "0ui8D8QMR1mUyilZgp8EG",
+      "message": "hii",
+      "response": "Hello. Welcome to CivicAssist. I'm here to help with reporting civic issues. You recently reported a resolved \"other\" issue, a duplicate \"streetlight\" issue, and a verified \"pothole\" issue. You earned +10 for the \"other\" report, +5 for the \"pothole\" verification, and would have earned +20 if the \"pothole\" issue gets resolved. How can I assist you today?",
+      "timestamp": "2025-11-26T08:20:17.206Z"
+    },
+    {
+      "userId": "0ui8D8QMR1mUyilZgp8EG",
+      "message": "how to report the issues",
+      "response": "To report issues, follow these steps:\n\n1. **Access the reporting system**: Visit our website or mobile app.\n2. **Select issue type**: Choose from options like potholes, streetlights, garbage, water, or other.\n3. **Provide details**: Describe the issue, including location and any relevant photos or videos.\n4. **Submit report**: Click \"Submit\" to send your report to our system.\n\nYou can also report issues through our:\n- Website: [website URL]\n- Mobile app: [app name]\n- Phone: [phone number]\n- Email: [email address]\n\nRemember, you earn **+10 points** for each new report you submit.",
+      "timestamp": "2025-11-26T08:20:34.100Z"
+    },
+    {
+      "userId": "qRdPj789c6H4a8CUjjOkq",
+      "message": "how to report the issue",
+      "response": "To report an issue, follow these steps:\n\n1. **Select the issue type**: Choose from options like potholes, streetlights, garbage, water, or other.\n2. **Provide location**: Enter the address or describe the location of the issue.\n3. **Add details**: Describe the issue and any relevant information.\n4. **Upload a photo (optional)**: Attach a photo to help illustrate the issue.\n5. **Submit the report**: Click the \"Submit\" button to send your report.\n\nYou can report issues through our website, mobile app, or by calling our hotline. \n\nRemember, you'll earn **+10 points** for each new report you submit.",
+      "timestamp": "2025-11-26T08:26:49.760Z"
+    },
+    {
+      "userId": "qRdPj789c6H4a8CUjjOkq",
+      "message": "can you check my status",
+      "response": "You have 1 recent report: \n- Streetlight issue: Pending\n\nYour current points: \n- +10 for reporting the issue (initial report)\n- Waiting for verification and resolution to earn additional points (+5 for verification, +20 for resolution)\n\nTotal points so far: 10",
+      "timestamp": "2025-11-26T08:27:07.890Z"
+    },
+    {
+      "userId": "qRdPj789c6H4a8CUjjOkq",
+      "message": "hii",
+      "response": "Hello. I'm CivicAssist. You have a pending report for a streetlight issue. Would you like to report a new issue, check the status of your current report, or learn more about our points system?",
+      "timestamp": "2025-11-26T12:59:10.948Z"
+    },
+    {
+      "userId": "admin001",
+      "message": "hii which ai are you?",
+      "response": "Hello. I'm CivicAssist, your helpful AI assistant for reporting civic issues like potholes, streetlights, garbage, water, and more. How can I assist you today?",
+      "timestamp": "2025-11-26T13:03:31.545Z"
+    },
+    {
+      "userId": "0ui8D8QMR1mUyilZgp8EG",
+      "message": "hii",
+      "response": "Hello. I'm CivicAssist. You have 3 recent reports: a verified pothole, a duplicate streetlight report, and a resolved \"other\" issue. You've earned +10 for the pothole report, +5 for verification, and +20 for the resolved issue. Your total points: +35. How can I help you today?",
+      "timestamp": "2025-11-26T13:35:23.871Z"
+    },
+    {
+      "userId": "GWk-QgW3g8ft8b-h62Ktb",
+      "message": "how can i report the issues",
+      "response": "To report issues, follow these steps:\n\n1. **Visit our website**: Go to [website URL] and click on \"Report an Issue\".\n2. **Choose the issue type**: Select the type of issue you want to report (potholes, streetlights, garbage, water, or other).\n3. **Provide location and details**: Enter the location of the issue and provide a brief description.\n4. **Add photos or videos (optional)**: Attach photos or videos to help illustrate the issue.\n5. **Submit the report**: Click \"Submit\" to send your report to our system.\n\nAlternatively, you can also report issues through:\n\n* **Mobile app**: Download our mobile app and follow the in-app instructions.\n* **Phone**: Call our hotline at [phone number] to report an issue.\n* **Email**: Send an email to [email address] with the issue details and location.\n\nRemember, you'll earn **+10 points** for each report you submit!",
+      "timestamp": "2025-11-26T13:42:42.039Z"
+    }
+  ],
+  "settings": {
+    "pointsPerReport": 10,
+    "pointsPerVerified": 5,
+    "pointsPerResolved": 20,
+    "duplicateThreshold": 0.55,
+    "geoRadiusMeters": 200,
+    "imageHashThreshold": 10,
+    "spamReportLimit": 10,
+    "spamTimeWindowMinutes": 10,
+    "spamDuplicateRatio": 0.6
+  }
+}
